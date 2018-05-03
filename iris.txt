@@ -1,0 +1,7 @@
+This model reads iris data from the dataset and uses it to train and the test the model.
+After it gets trained, the model can predict to which class/species new unknown data will belong to.
+Note:
+    * Uses GaussianNB algorithm for classification
+    * Uses PCA(principle component analysis) for dimensionality reduction
+    * seaborn is used to plot graphs
+    * Accuracy is ~97%
